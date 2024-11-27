@@ -1,0 +1,46 @@
+div.cart_total {
+    width: 1130px;
+    margin: 0 auto;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.cart_total div {
+    display: flex;
+}
+
+div.cart_total > div > p {
+    height: 60px;
+    line-height: 60px;
+    margin-left: 50px;
+    color: #5e5e5e;
+}
+
+div.cart_total > div > :last-child > span {
+    color: orange;
+}
+
+div.cart_total > :last-child > p {
+    color: orange;
+}
+
+div.cart_total > :last-child > p > span {
+    color: orange;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+div.cart_total > :last-child > button {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: none;
+    margin-left: 50px;
+    color: #5e5e5e;
+    font-size: 20px;
+}

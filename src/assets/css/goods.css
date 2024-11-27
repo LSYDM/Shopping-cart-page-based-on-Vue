@@ -1,0 +1,64 @@
+div.goods {
+    width: 1130px;
+    margin: 0 auto;
+    /*background-color: #87CEEBFF;*/
+    overflow: hidden;
+}
+
+div.goods div {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid white;
+    float: left;
+    position: relative;
+    cursor: default;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+div.goods div button {
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    position: absolute;
+    transition: all 0.8s;
+}
+
+div.goods div button:hover {
+    color: white;
+    background-color: orange;
+}
+
+div.goods div:hover {
+    border: 1px solid orange;
+}
+
+div.goods div img {
+    width: 200px;
+    height: 200px;
+}
+
+div.goods div p {
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+div.goods div > :nth-child(3) {
+    color: orange;
+}
+
+div.goods div > :nth-child(4) {
+    color: #6d6d6d;
+}

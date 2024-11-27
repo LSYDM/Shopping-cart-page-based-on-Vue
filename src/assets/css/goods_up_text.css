@@ -1,0 +1,21 @@
+p.goods_up_text {
+    width: 1130px;
+    margin: 0 auto;
+    height: 80px;
+    font-size: 30px;
+    color: orange;
+    position: relative;
+    text-align: center;
+    line-height: 80px;
+    cursor: default;
+}
+
+p.goods_up_text:after {
+    content: '';
+    position: absolute;
+    width: 1130px;
+    height: 1px;
+    background-color: #bdbdbd;
+    left: 0;
+    top: 50%;
+}
